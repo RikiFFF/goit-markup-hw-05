@@ -1,0 +1,67 @@
+.main-footer .main-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.main-footer a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.main-footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.main-footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.main-footer .container {
+  display: flex;
+}
+.icons-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 120px;
+}
+.main-footer-icons {
+  display: flex;
+  gap: 16px;
+}
+.footer-social {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.link-icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  color: #f4f4fd;
+  background: #4d5ae5;
+  transition: background-color 250ms ease-in-out;
+}
+.link-icon-footer:hover,
+.link-icon-footer:focus {
+  background-color: #31d0aa;
+}
