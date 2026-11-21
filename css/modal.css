@@ -63,8 +63,9 @@
 .modal-button:focus {
   background-color: #404bbf;
 }
-.modal-button:hover > .modal-close-button {
-  color: white;
+.modal-button:hover > .modal-close-button,
+.modal-button:focus > .modal-close-button {
+  color: #fff;
 }
 .modal-form {
   margin-top: 16px;
